@@ -10,6 +10,8 @@ namespace Critcal_Thinking_Excercises
     {
         static void Main(string[] args)
         {
+            Loops loops = new Loops();
+      
         }
     }
 }
