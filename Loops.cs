@@ -11,10 +11,10 @@ namespace Critcal_Thinking_Excercises
         public Loops()
         {
             ForLoops();
+            ForLoops4();
         }
         public void ForLoops()
         {
-
             for(int i = 0; i < 5; i++)
             {
                 Console.WriteLine(i);
@@ -31,6 +31,16 @@ namespace Critcal_Thinking_Excercises
                     }
                     Console.WriteLine(j);
                 }
+            }
+        }
+        public void ForLoops4()
+        {
+            int userInput;
+            Console.WriteLine("Please enter a postive integer");
+            userInput = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < userInput; i++)
+            {
+                Console.WriteLine(i);
             }
             Console.ReadLine();
         }
