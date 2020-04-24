@@ -10,8 +10,7 @@ namespace Critcal_Thinking_Excercises
     {
         public Loops()
         {
-            ForLoops5();
-           
+            ForLoops4();
         }
         public void ForLoops()
         {
@@ -32,6 +31,7 @@ namespace Critcal_Thinking_Excercises
                     Console.WriteLine(j);
                 }
             }
+            Console.ReadLine();
         }
         public void ForLoops4()
         {
@@ -42,8 +42,14 @@ namespace Critcal_Thinking_Excercises
             {
                 Console.WriteLine(i);
             }
+            Console.ReadLine();
          
         }
+        public void ForLoops5DoOver()
+        {
+
+        }
+
         public void ForLoops5()
         {
             string word;
@@ -56,5 +62,17 @@ namespace Critcal_Thinking_Excercises
             }
             Console.ReadLine();
         }
+        public void ForLoopsStep6()
+        {
+            string word;
+            word = "Hello World";
+            foreach (char c in word)
+            {
+                Console.WriteLine(c + ",");
+            }
+
+            Console.ReadLine();
+        }
+
     }
 }
