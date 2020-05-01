@@ -20,6 +20,25 @@ namespace Critcal_Thinking_Excercises
             Console.WriteLine("The result of this addition is:" + result);
             return result;
         }
+        public int SubtractTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne - numberTwo;
+            Console.WriteLine("The result of this subtraction is:" + result);
+            return result;
+        }
+        public int MultiplyTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne * numberTwo;
+            Console.WriteLine("The product of this multiplication is:" + result);
+            return result;
+        }
+        public int DivideTwoNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne / numberTwo;
+            Console.WriteLine("The quotient of this division is:" + result);
+            return result;
+        }
+
         public void RunCalculations()
         {
             AddTwoNumbers(8, 40);
