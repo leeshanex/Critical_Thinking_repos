@@ -10,7 +10,7 @@ namespace Critcal_Thinking_Excercises
     {
         public WhileLoop()
         {
-            WhileLoops2();
+          
         }
         //Step 1
         public void WhileLoops1()
@@ -21,7 +21,7 @@ namespace Critcal_Thinking_Excercises
                 counter++;
             }
             // loop will run 5 times because we are incrementing by 5's
-            // this loop 
+            // this loop will keep running until the argument is no longer true
         }
         //step 2
         public void WhileLoops2()

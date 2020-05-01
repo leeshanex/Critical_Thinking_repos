@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class Methods
+    class CalculatorMadness
     {
+        //Fun with Methods
+        public CalculatorMadness()
+        {
+
+        }
+        //Step 1
     }
 }
