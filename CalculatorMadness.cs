@@ -22,6 +22,7 @@ namespace Critcal_Thinking_Excercises
             numberTwo = int.Parse(Console.ReadLine());
             int result = numberOne + numberTwo;
             Console.WriteLine("The result of this addition is:" + result);
+            return result;
         }
         public void RunCalculations()
         {
