@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class Loops
+    class ForLoops
     {
-        public Loops()
+        public ForLoops()
         {
-            ForLoops4();
+            ForLoops5();
         }
-        public void ForLoops()
+        public void ForLoops1()
         {
             for(int i = 0; i < 5; i++)
             {
@@ -45,20 +45,14 @@ namespace Critcal_Thinking_Excercises
             Console.ReadLine();
          
         }
-        public void ForLoops5DoOver()
-        {
-
-        }
-
+        // REDO STEPS 5 - 8 with indexes not char
         public void ForLoops5()
         {
             string word;
             word = "Hello World";
-            int count = 0;
-            foreach(char c in word)
+            for (int i = 0; i < word.Length; i++ )
             {
-                count++;
-                Console.WriteLine(count);
+                Console.WriteLine(i);
             }
             Console.ReadLine();
         }
@@ -73,6 +67,19 @@ namespace Critcal_Thinking_Excercises
 
             Console.ReadLine();
         }
+        public void ForLoopsStep7()
+        {
+            string word;
+            word = "Hello World";
+            foreach (char c in word)
+            {
+                Console.WriteLine(c + ",");
+            }
+
+            Console.ReadLine();
+
+        }
+
 
     }
 }

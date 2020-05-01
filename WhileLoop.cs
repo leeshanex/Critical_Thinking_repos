@@ -8,5 +8,10 @@ namespace Critcal_Thinking_Excercises
 {
     class WhileLoop
     {
+        
+        public void WhileStep1()
+        {
+
+        }
     }
 }
