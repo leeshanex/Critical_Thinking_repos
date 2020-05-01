@@ -11,7 +11,7 @@ namespace Critcal_Thinking_Excercises
         //Fun with Methods
         public CalculatorMadness()
         {
-
+           
         }
         //Step 2
         public int AddTwoNumbers(int numberOne, int numberTwo)

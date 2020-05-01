@@ -10,7 +10,7 @@ namespace Critcal_Thinking_Excercises
     {
         public WhileLoop()
         {
-    
+            WhileLoops3();
 
         }
         //Step 1
@@ -49,7 +49,20 @@ namespace Critcal_Thinking_Excercises
         }
         public void WhileLoops3()
         {
-
+            bool validInput = false;
+            while (!validInput)
+            {
+                Console.WriteLine("Please enter the number 42" );
+                int userInput = int.Parse(Console.ReadLine());
+                if(userInput == 42)
+                {
+                    validInput = true;
+                }
+                else
+                {
+                    Console.WriteLine("PUT IN 42");
+                }
+            }
         }
     }
 }
