@@ -10,7 +10,8 @@ namespace Critcal_Thinking_Excercises
     {
         public WhileLoop()
         {
-          
+    
+
         }
         //Step 1
         public void WhileLoops1()
@@ -29,10 +30,10 @@ namespace Critcal_Thinking_Excercises
             
             int userInput;
             Console.WriteLine("Please enter a positive integer below 25");
-            userInput = Convert.ToInt32(Console.ReadLine());
+            userInput = int.Parse(Console.ReadLine());
             int counter = userInput;
             bool validInput = false;
-            while (!validInput && counter < 25)
+            while (!validInput && counter <= 25)
             {
                     if (counter > 0)
                     {

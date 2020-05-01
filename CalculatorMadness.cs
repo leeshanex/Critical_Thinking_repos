@@ -14,7 +14,7 @@ namespace Critcal_Thinking_Excercises
 
         }
         //Step 2
-        public void AddTwoNumbers(int numberOne, int numberTwo)
+        public int AddTwoNumbers(int numberOne, int numberTwo)
         {
             Console.WriteLine("Please enter the first number:");
             numberOne = int.Parse(Console.ReadLine());
@@ -25,7 +25,12 @@ namespace Critcal_Thinking_Excercises
         }
         public void RunCalculations()
         {
-            AddTwoNumbers(5,7);
+            Console.WriteLine("Enter first number to add:");
+            int value1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter second number to add:");
+            int value2 = int.Parse(Console.ReadLine());
+            int output = AddTwoNumbers(value1, value2);
+            Console.WriteLine("The result is: " + output);
         }
 
     }
