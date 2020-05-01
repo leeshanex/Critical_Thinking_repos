@@ -10,8 +10,9 @@ namespace Critcal_Thinking_Excercises
     {
         public ForLoops()
         {
-            ForLoops5();
+            ForLoops6();
         }
+        //Step 1
         public void ForLoops1()
         {
             for(int i = 0; i < 5; i++)
@@ -31,7 +32,6 @@ namespace Critcal_Thinking_Excercises
                     Console.WriteLine(j);
                 }
             }
-            Console.ReadLine();
         }
         public void ForLoops4()
         {
@@ -42,8 +42,6 @@ namespace Critcal_Thinking_Excercises
             {
                 Console.WriteLine(i);
             }
-            Console.ReadLine();
-         
         }
         // REDO STEPS 5 - 8 with indexes not char
         public void ForLoops5()
@@ -54,18 +52,16 @@ namespace Critcal_Thinking_Excercises
             {
                 Console.WriteLine(i);
             }
-            Console.ReadLine();
         }
-        public void ForLoopsStep6()
+        public void ForLoops6()
         {
             string word;
             word = "Hello World";
-            foreach (char c in word)
+            for (int i = 0; i < word.Length; i++ )
             {
-                Console.WriteLine(c + ",");
+                
+                Console.WriteLine((word[i]) + ",");
             }
-
-            Console.ReadLine();
         }
         public void ForLoopsStep7()
         {
@@ -75,11 +71,6 @@ namespace Critcal_Thinking_Excercises
             {
                 Console.WriteLine(c + ",");
             }
-
-            Console.ReadLine();
-
         }
-
-
     }
 }
