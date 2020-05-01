@@ -10,7 +10,7 @@ namespace Critcal_Thinking_Excercises
     {
         public ForLoops()
         {
-            ForLoops8();
+          
         }
         //Step 1
         public void ForLoops1()
@@ -43,7 +43,6 @@ namespace Critcal_Thinking_Excercises
                 Console.WriteLine(i);
             }
         }
-        // REDO STEPS 5 - 8 with indexes not char
         public void ForLoops5()
         {
             string word;

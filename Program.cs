@@ -11,6 +11,7 @@ namespace Critcal_Thinking_Excercises
         static void Main(string[] args)
         {
             ForLoops loops = new ForLoops();
+            WhileLoop whileLoop = new WhileLoop();
             Console.ReadLine();
       
         }
