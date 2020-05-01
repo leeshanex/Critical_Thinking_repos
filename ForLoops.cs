@@ -10,7 +10,8 @@ namespace Critcal_Thinking_Excercises
     {
         public ForLoops()
         {
-          
+ 
+
         }
         //Step 1
         public void ForLoops1()
@@ -37,7 +38,7 @@ namespace Critcal_Thinking_Excercises
         {
             int userInput;
             Console.WriteLine("Please enter a postive integer");
-            userInput = Convert.ToInt32(Console.ReadLine());
+            userInput = int.Parse(Console.ReadLine());
             for (int i = 0; i < userInput; i++)
             {
                 Console.WriteLine(i);
