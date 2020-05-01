@@ -10,7 +10,7 @@ namespace Critcal_Thinking_Excercises
     {
         public WhileLoop()
         {
-            WhileLoops3();
+   
 
         }
         //Step 1
