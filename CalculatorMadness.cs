@@ -41,8 +41,10 @@ namespace Critcal_Thinking_Excercises
 
         public void RunCalculations()
         {
-            SubtractTwoNumbers((AddTwoNumbers(6, 5)), (DivideTwoNumbers((MultiplyTwoNumbers(40, 35)), 4)));
-            MultiplyTwoNumbers(2, 2);
+            int firstNumber = SubtractTwoNumbers((AddTwoNumbers(6, 5)), (DivideTwoNumbers((MultiplyTwoNumbers(40, 35)), 4)));
+            Console.WriteLine("Enter " + firstNumber + " as your first number <<<<<<<<<");
+            int secondNumber = MultiplyTwoNumbers(2, 2);
+            Console.WriteLine("Enter " + secondNumber + " as your second number <<<<<<<");
             Console.WriteLine("Enter first number to add:");
             int value1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter second number to add:");

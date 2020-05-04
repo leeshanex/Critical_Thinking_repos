@@ -9,6 +9,6 @@ namespace Critcal_Thinking_Excercises
      class RAM
     {
       public double totalGigabytes;
-       string Brand;
+       public string Brand;
     }
 }

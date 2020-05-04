@@ -38,5 +38,9 @@ namespace Critcal_Thinking_Excercises
         {
 
         }
+        //public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
+        //{
+
+        //}
     }
 }
