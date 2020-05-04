@@ -17,11 +17,17 @@ namespace Critcal_Thinking_Excercises
             CPU cpu = new CPU();
   
             Motherboard motherboard = new Motherboard("Lenovo",ram, cpu, hardDrive, gpu);
+            ram.totalGigabytes = 16.0;
+            cpu.manufacturer = "Intel";
+            cpu.name = "i7-9700";
+            hardDrive.totalStorage = 1000.0;
+            hardDrive.availableStorage = 950.0;
+            gpu.manufacturer = "Nvidia";
+            gpu.effectiveMemory = 16.0;
+
+
             Games games = new Games();
             motherboard.InstallApplication(app, hardDrive, ram, games, gpu);
-           
-
-
         }
     }
 }
