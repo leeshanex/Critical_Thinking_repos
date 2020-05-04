@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class RAM
+     class RAM
     {
-        Double TotalGigabytes;
-        String Brand;
+      public double totalGigabytes;
+       string Brand;
     }
 }

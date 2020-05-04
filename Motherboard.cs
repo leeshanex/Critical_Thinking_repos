@@ -22,5 +22,21 @@ namespace Critcal_Thinking_Excercises
             Graphics = gpu;
 
         }
+        public void InstallApplication(Applications app)
+        {
+            Storage.ApplicationsInHardDrive = new List<Applications>();
+            if (TemporaryMemory.totalGigabytes > app.RequiredRam && Storage.AvailableStorage > app.RequiredStorage)
+            {
+                Storage.ApplicationsInHardDrive.Add(app);
+            }
+            else
+            {
+                Console.WriteLine("Not enough memory space");
+            }
+        }
+        public void ProcessInstall (Applications app, HardDrive hardDrive, RAM ram)
+        {
+
+        }
     }
 }

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class Application
+    class Applications
     {
         public string ApplicationName;
         public string ApplicationType;
         public double RequiredRam;
         public double RequiredStorage;
-        public Application()
+        public Applications()
         {
             ApplicationName = "Slack";
             ApplicationType = "Messaging service";
