@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class TextEditor
+    class TextEditor : Applications
     {
+        public TextEditor()
+        {
+
+        }
     }
 }

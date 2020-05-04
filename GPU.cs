@@ -10,6 +10,6 @@ namespace Critcal_Thinking_Excercises
     {
         public string manufacturer;
         public double effectiveMemory;
-
+     
     }
 }

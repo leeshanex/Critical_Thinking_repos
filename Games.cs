@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class Games
+    class Games : Applications
     {
+        public double requiredEffectiveMemory;
+        public Games()
+        {
+
+        }
     }
 }

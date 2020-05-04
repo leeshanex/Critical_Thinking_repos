@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class HardDrive
+   class HardDrive
     {
         public double totalStorage;
         public double availableStorage;

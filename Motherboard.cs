@@ -24,23 +24,19 @@ namespace Critcal_Thinking_Excercises
         }
         public void InstallApplication(Applications app)
         {
-            Storage.ApplicationsInHardDrive = new List<Applications>();
-            if (TemporaryMemory.totalGigabytes > app.RequiredRam && Storage.AvailableStorage > app.RequiredStorage)
+            storage.ApplicationsInHardDrive = new List<Applications>();
+            if (temporaryMemory.totalGigabytes > app.requiredRAM && storage.availableStorage > app.requiredStorage)
             {
-                Storage.ApplicationsInHardDrive.Add(app);
+                storage.ApplicationsInHardDrive.Add(app);
             }
             else
             {
-                Console.WriteLine("Not enough memory space");
+                Console.WriteLine("Memory storage full");
             }
         }
-        public void ProcessInstall (Applications app, HardDrive hardDrive, RAM ram)
-        {
-            
-        }
-        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
-        {
 
-        }
+      
+
+
     }
 }
