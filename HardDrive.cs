@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Critcal_Thinking_Excercises
 {
-    class GPU
+    class HardDrive
     {
-        String Manufacturer;
-        Double EffectiveMemory;
-
+        Double TotalStorage;
+        Double AvailableStorage;
     }
 }
