@@ -17,11 +17,12 @@ namespace Critcal_Thinking_Excercises
 
 
         }
-        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
+        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram, Games games, GPU gpu)
         {
             bool availableMemorySpace = false;
                 if ((app.requiredRAM < ram.totalGigabytes) && (app.requiredStorage < hardDrive.availableStorage))
                 {
+                CheckGraphicsRequirementsForGame(app, hardDrive, games, gpu, ram);
                     ProcessInstall(app, hardDrive, ram);
                     availableMemorySpace = true;
                 }
@@ -38,7 +39,6 @@ namespace Critcal_Thinking_Excercises
             {
                 if( gpu.effectiveMemory > games.requiredEffectiveMemory)
                 {
-                    CheckRequirements(app, hardDrive, ram);
                     meetsSystemGraphicsRequirements = true;
                 }
                 else

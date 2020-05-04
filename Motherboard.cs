@@ -22,11 +22,12 @@ namespace Critcal_Thinking_Excercises
             graphics = gpu;
 
         }
-        public void InstallApplication(Applications app)
+        public void InstallApplication(Applications app, HardDrive hardDrive, RAM ram, Games games, GPU gpu)
         {
             storage.ApplicationsInHardDrive = new List<Applications>();
             if (temporaryMemory.totalGigabytes > app.requiredRAM && storage.availableStorage > app.requiredStorage)
             {
+                processor.CheckRequirements(app, hardDrive, ram, games, gpu);
                 storage.ApplicationsInHardDrive.Add(app);
             }
             else
