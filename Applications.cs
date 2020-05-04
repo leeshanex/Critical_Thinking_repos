@@ -8,16 +8,16 @@ namespace Critcal_Thinking_Excercises
 {
     class Applications
     {
-        public string ApplicationName;
-        public string ApplicationType;
-        public double RequiredRam;
-        public double RequiredStorage;
+        public string applicationName;
+        public string applicationType;
+        public double requiredRam;
+        public double requiredStorage;
         public Applications()
         {
-            ApplicationName = "Slack";
-            ApplicationType = "Messaging service";
-            RequiredRam = 4.0;
-            RequiredStorage = 0.512;
+            applicationName = "Slack";
+            applicationType = "Messaging service";
+            requiredRam = 4.0;
+            requiredStorage = 0.512;
         }
     }
 }

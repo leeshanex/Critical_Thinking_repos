@@ -8,7 +8,7 @@ namespace Critcal_Thinking_Excercises
 {
     class CPU
     {
-        String Manufacturer;
-        String Name;
+        public string manufacturer;
+        public string name;
     }
 }

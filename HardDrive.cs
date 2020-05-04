@@ -8,8 +8,8 @@ namespace Critcal_Thinking_Excercises
 {
     class HardDrive
     {
-        public double TotalStorage;
-        public double AvailableStorage;
+        public double totalStorage;
+        public double availableStorage;
         public List<Applications> ApplicationsInHardDrive;
     }
 }

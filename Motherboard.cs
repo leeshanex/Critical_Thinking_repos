@@ -9,17 +9,17 @@ namespace Critcal_Thinking_Excercises
     class Motherboard
     {
         public string Manufacturer;
-        public RAM TemporaryMemory;
-        public CPU Processor;
-        public HardDrive Storage;
-        public GPU Graphics;
+        public RAM temporaryMemory;
+        public CPU processor;
+        public HardDrive storage;
+        public GPU graphics;
         public Motherboard(string manufacturer, RAM ram, CPU cpu, HardDrive hardDrive, GPU gpu)
         {
             Manufacturer = manufacturer;
-            TemporaryMemory = ram;
-            Processor = cpu;
-            Storage = hardDrive;
-            Graphics = gpu;
+            temporaryMemory = ram;
+            processor = cpu;
+            storage = hardDrive;
+            graphics = gpu;
 
         }
         public void InstallApplication(Applications app)
@@ -36,11 +36,11 @@ namespace Critcal_Thinking_Excercises
         }
         public void ProcessInstall (Applications app, HardDrive hardDrive, RAM ram)
         {
+            
+        }
+        public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
+        {
 
         }
-        //public bool CheckRequirements(Applications app, HardDrive hardDrive, RAM ram)
-        //{
-
-        //}
     }
 }

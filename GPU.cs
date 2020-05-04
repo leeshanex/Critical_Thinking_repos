@@ -8,8 +8,8 @@ namespace Critcal_Thinking_Excercises
 {
     class GPU
     {
-        String Manufacturer;
-        Double EffectiveMemory;
+        public string manufacturer;
+        public double effectiveMemory;
 
     }
 }
